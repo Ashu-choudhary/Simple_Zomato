@@ -36,4 +36,30 @@
     <string name="mobile">+91 7983132721</string>
     <string name="address">Muzaffarnagar, Uttar Pradesh, 251001</string>
     <string name="connection">Connection</string>
+
+    <string-array name="faq_questions">
+        <item>Q: What are the operating hours?</item>
+        <item>Q: Do you offer vegan options?</item>
+        <item>Q: How can I make a reservation?</item>
+        <item>Q: What is your delivery radius?</item>
+        <item>Q: Do you have gluten-free options?</item>
+        <item>Q: What payment methods do you accept?</item>
+        <item>Q: Can I modify my order after placing it?</item>
+        <item>Q: Can I modify my order after placing it?</item>
+        <item>Q: Can I modify my order after placing it?</item>
+        <item>Q: Can I modify my order after placing it?</item>
+    </string-array>
+
+    <string-array name="faq_answers">
+        <item>Ans: Our operating hours are from 9 AM to 10 PM from Monday to Sunday.</item>
+        <item>Ans: Yes, we offer a variety of vegan options on our menu. Please check the Vegan section in our app.</item>
+        <item>Ans: You can make a reservation by calling us at our contact number or through our website and app.</item>
+        <item>Ans: We deliver within a 5-mile radius from our location. Please enter your address in the app to check if we deliver to you.</item>
+        <item>Ans: Yes, we have a selection of gluten-free dishes. Look for the gluten-free label on our menu items.</item>
+        <item>Ans: We accept all major credit cards, debit cards, and mobile payment options like Apple Pay and Google Pay.</item>
+        <item>Ans: Yes, you can modify your order within 10 minutes of placing it by contacting our customer support.</item>
+        <item>Ans: Yes, you can modify your order within 10 minutes of placing it by contacting our customer support.</item>
+        <item>Ans: Yes, you can modify your order within 10 minutes of placing it by contacting our customer support.</item>
+        <item>Ans: Yes, you can modify your order within 10 minutes of placing it by contacting our customer support.</item>
+    </string-array>
 </resources>

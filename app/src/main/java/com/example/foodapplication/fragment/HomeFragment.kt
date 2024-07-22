@@ -11,6 +11,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.android.volley.Response
+import com.android.volley.toolbox.JsonObjectRequest
+import com.android.volley.toolbox.Volley
 import com.example.foodapplication.R
 import com.example.foodapplication.adapter.DashboardRecyclerAdapter
 import com.example.foodapplication.model.Food
@@ -97,6 +100,24 @@ class HomeFragment : Fragment() {
                 (layoutManager as LinearLayoutManager).orientation
             )
         )
+
+        val queue = Volley.newRequestQueue(activity as Context)
+
+        val url = "http://13.235.250.119/v2/restaurants/fetch_result/"
+
+        val jsonObjectRequest = object : JsonObjectRequest(Method.GET,url, null,
+            Response.Listener {
+
+        } , Response.ErrorListener {
+
+        }){
+            override fun getHeaders(): MutableMap<String, String> {
+                val headers = HashMap<String, String>()
+                headers["Content-type"] = "application/json"
+                headers["token"] = "dd00eae47b660d"
+                return headers
+            }
+        }
 
         return view
 
